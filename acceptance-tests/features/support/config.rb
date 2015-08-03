@@ -1,5 +1,6 @@
 require 'capybara/cucumber'
 require 'capybara/poltergeist'
+require 'capybara/rspec'
 
 include Capybara::DSL
 Capybara.default_selector = :xpath
